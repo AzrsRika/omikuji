@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>おみくじ</title>
+        <!-- CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/destyle.css@1.0.5/destyle.css">
+        <link rel="stylesheet" href="css/style.css">
+        <!-- フォント -->
+        <link href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho" rel="stylesheet">
+    </head>
+    <body>
+        <!-- タイトル -->
+        <h1>あざらしちゃんおみくじ</h1>
+        <div class="result">
+            <p id="js-text">今年の運勢</p>
+        </div>
+        <!-- 画像、吹き出しテキスト -->
+        <div class="flex">
+            <img id="js-img" src="img/azarashi.png" alt="アザラシ">
+            <div class="wrapper">
+                <p id="js-message" class="message">下のボタンを押してハッピーになろう！</p>
+            </div>
+        </div>
+        <!-- ボタン -->
+        <button id="js-btn" class="btn">おみくじを引く</button>
+        <!-- JS -->
+        <script src="js/script.js"></script>
+    </body>
+</html>

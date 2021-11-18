@@ -10,11 +10,11 @@ btn.addEventListener("click", () => { //btnをクリックすると
             img.setAttribute('src', 'img/tyou-daikiti.png');
             msg.textContent = "おめでとう！仕事運、金運、恋愛運全て超アップ♪";
         } else if (randomNumber <= 30) {
-            result.textContent = "大吉";
+            result.textContent = "超吉";
             img.setAttribute('src', 'img/otaku.png');
             msg.textContent = "推し事運最高☆";
         } else if (randomNumber <= 50) {
-            result.textContent = "大吉";
+            result.textContent = "恋吉";
             img.setAttribute('src', 'img/densyobato.png');
             msg.textContent = "下駄箱にラブレターが入ってるかも…！？";
         } else if (randomNumber <= 70) {
@@ -22,11 +22,11 @@ btn.addEventListener("click", () => { //btnをクリックすると
             img.setAttribute('src', 'img/azarasi-pc.png');
             msg.textContent = "仕事運アップ！";
         } else if (randomNumber <= 90) {
-            result.textContent = "大吉";
+            result.textContent = "諭吉";
             img.setAttribute('src', 'img/nekonikoban.png');
             msg.textContent = "金運アップ！";
         } else {
-            result.textContent = "大吉";
+            result.textContent = "愛吉";
             img.setAttribute('src', 'img/pengin.png');
             msg.textContent = "恋愛運絶好調♡";
         }  
